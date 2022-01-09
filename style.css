@@ -11,21 +11,24 @@ body{
     display: flex;
 }
 .half-width{
-    width: 50%;
+    width: 60%;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .half-width img{
-    width: 50%;
+    width: 40%;
+    
 }
 .button{
     text-decoration: none;
     background-color: orange;
     padding: 10px;
+    margin-top: 10px;
     color: white;
     border-radius: 10px;
 
 }
+
 .border{
     border-left: 7px solid;
     border-image: linear-gradient(tomato,orange);
