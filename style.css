@@ -1,0 +1,130 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+
+.orange{
+    color: orange;
+}
+
+.top-banner{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.half-width img{
+    width: 50%;
+}
+.button{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+
+}
+.border{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+}
+.center{
+    text-align: center;
+}
+.all{
+    display: flex;
+}
+.card1{
+    width: 40%;
+    text-align: center;
+    box-shadow: 5px 10px 30px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+.card2{
+    width: 40%;
+    text-align: center;
+    box-shadow: 5px 10px 30px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(224, 231, 231);
+}
+.card3{
+    width: 40%;
+    text-align: center;
+    box-shadow: 5px 10px 30px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(168, 173, 247);
+}
+
+.container{
+    padding: 5px;
+}
+/* develop */
+.develop{
+    display: flex;
+    margin-top: 10px;
+}
+.img{
+    width: 50%;
+    margin: 20px;
+}
+.head{
+    width: 50%;
+    margin-right: 30px;
+    padding: 20px;
+
+}
+.img{
+    background-image: url(images/shapes/shape-1.png)  ;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+/* global */
+.global{
+    display: flex;
+    margin-top: 30px;
+}
+.img{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* Corona */
+.align{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.flex{
+    display: flex;
+}
+.love{
+    width: 50%;
+}
+.coro{
+    width: 50%;
+}
+
+
+
+footer h1{
+    background-color: black;
+    height: 100px;
+    left: 90px;
+    bottom: 40px;
+    padding: 50px;
+    
+    text-align: center;
+    color: white;
+
+   
+
+}
+
